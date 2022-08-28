@@ -10,6 +10,12 @@
       /* body {
         color:rgb(240,242,244);
       } */
+
+      /* *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      } */
       #navbar {
         width: 100%;
         height: 100px;
@@ -83,23 +89,21 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 520px;
-        border: 2px solid green;
-        width: 70%;
+      
+        width: 100%;
         gap: 10px;
         
       }
 
-      .box > div > :nth-child(1) {
-        width: 204%;
-      }
+     
       #cart {
       
         display:flex;
-        width: 90%;
+        width: 100%;
         height: 175px;
         align-items: center;
-       justify-content: center;
-       margin:auto;
+        justify-content:space-around;
+      margin-left: 22px;
       
         margin-bottom: 7px;
         box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
@@ -111,29 +115,306 @@
         
       
       } 
-      h5{
+      /* h5{
         margin-left:15px;
         margin-top: -115px;
-        line-height:2px ;
-        width: 40%;
-      }
+     
+        width: 60%;
+      } */
 
-       h6 {
-       
       
-      
-        color:blue;
-      } 
       #container {
+        margin-left:25px;
+        margin-top:30px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 100px;
-        width: 80%;
-        gap:10px;
+        grid-template-rows: 300px;
+        width: 100%;
+        gap:19px;
       }
       #container > div {
-        border: 5px solid green;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
       }
+      #container > div>:nth-child(1) {
+       border:2px solid green;
+       color:rgb(255,242,0);
+       background-color: rgb(0,70,190);
+       margin-top: 20px;
+       margin-left: 20px;
+       font-size: 13px;
+      }
+      #container > div>:nth-child(2) {
+   
+   text-align: center;
+       margin:auto;
+     width: 60%;
+     font-size:39px;
+     color:rgb(187,6,40);
+     line-height: 47px;
+     margin-top: 20px;
+     font-size: 21px"
+    
+      }
+      #container > div>:nth-child(3) {
+         
+         width:40%;
+         margin-top: 20px;
+         margin-left: 20px;
+         font-size:14px; 
+         color:blue;
+      }
+    
+    
+    #box-1>h3{
+     margin-top: -20px;
+     margin-left:10px;
+      width:8%;
+    }
+    #box-1>p{
+   color:blue;
+    width: 20%;
+    line-height:10px;
+    font-size:13px;
+    margin-left:10px;
+    }
+    #box-1{
+      margin-top:20px;
+      width: 100%;
+      height: 1200px;
+      border:3px solid aqua;
+     
+    }
+    #h-card{
+      display:flex;
+     
+      gap:15px;
+      flex-wrap: wrap;
+    }
+    .h-each-card{
+      width:18%;
+      height: auto;
+      display:flex;
+      flex-direction: column;
+      margin-left:10px;
+      box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+      padding-top: 30px;
+      padding-bottom:30px;
+    }
+    .h-each-card>div>img{
+      width: 30%;
+      height: 100%;
+     
+      margin-left: 20px;
+    }
+    .h-each-card>:nth-child(1){
+      padding-left:50px;
+    }
+    .h-each-card>:nth-child(2){
+      padding-top:20px;
+      color:blue;
+      padding-left: 19px;
+     
+      text-align: center;
+      margin:auto;
+      width:90%;
+      font-size:13px;
+      line-height: 16px;
+    }
+  
+    .y-card{
+      display:flex;
+      gap:20px;
+    
+      margin-top:50px;
+      margin-left:5px;
+    }
+    #y-each-card{
+   width:60%;
+   background-color:rgb(240,242,244);
+   height:100px;
+   display:flex;
+   text-align:center;
+   padding-left:150px;
+ 
+    }
+     #y-each-card>div{
+      /* margin-left:70px; */
+        display:flex;
+       
+    } 
+    
+    #y-each-card>div>:nth-child(1){
+  
+       
+    font-size:16px;
+        margin-top: 10px;
+    } 
+    #y-each-card>div>:nth-child(2){
+      margin-top: -10px;
+      /* color:blue; */
+    } 
+    #z-card{
+      display:flex;
+     
+      gap:10px;
+      margin-top:30px;
+    }
+    #z-each-card{
+      width:48%;
+      height:400px;
+      box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+      flex:1;
+    }
+    #z-each-card>div>:nth-child(1){
+   width:96%;
+   height:400px
+    }
+    #z-each-card{
+      width:100%;
+      height:400px;
+    
+      background-color: rgb(240,242,244);
+      box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+    }
+       #w-card{
+        display:flex;
+        margin-top:40px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+       }
+       #w-each-card{
+        display:flex;
+        width:auto;
+        height:100px;
+      padding-left:50px;
+       }
+       #w-each-card>div{
+        display:flex;
+       }
+      #v-card{
+       display:flex;
+        margin-top:20px;
+      }
+      #v-each-card{
+        width:100%;
+        height:130px;
+        background-color:rgb(1,12,104);
+          
+      
+
+      }
+      #v-each-card>div>:nth-child(1){
+      padding-top:10px;
+        color:rgb(255,255,255);
+        width:5%;
+        line-height:20px;
+       margin:auto;
+        font-size:15px;
+       justify-content: flex-start;
+       margin-left:250px;
+     
+
+      }
+      #v-each-card>div>:nth-child(2){
+        color:rgb(255,255,255);
+        margin-top: 6px;
+        justify-content: flex-start;
+        margin-left:240px;
+        width:8%;
+        line-height: 23px;
+       
+       
+      }
+      #v-each-card>div>:nth-child(3){
+        margin-left:240px;
+      
+        font-size: 20px;
+        padding-left:8px;
+        padding-right:8px;
+        margin-top:-10px;
+        border-radius: 7px;
+        background-color:rgb(255,255,255);
+        color:rgb(1,12,104);
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+      }
+      #box-4{
+        width:99%;
+        height:630px;
+        display:flex;
+      
+        margin-top:64px;
+        gap:20px;
+      }
+      #xy{
+        background-color: rgb(240,242,244);
+     
+
+       width:50%;
+     
+      }
+      #u-card{
+        display:grid;
+        grid-template-columns:repeat(2,1fr);
+        grid-template-rows: repeat(2,220px);
+        gap:25px;
+      margin-top:70px;
+        width:78%;
+        padding-top:50px;
+        text-align:center;
+        margin:auto;
+       
+      }
+     
+     #box-5{
+      width:99%;
+      height:2500px;
+       border:2px solid red; 
+      margin-top:50px;
+     }
+    #t-card{
+      width:100%;
+      height:300px;
+      border:3px solid blue;
+    }
+    #a-card{
+      margin-top:10px;
+      display:grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3,420px);
+      width:99%;
+     
+    
+      margin-top:10px;
+    }
+    #a-card>div{
+      /* border:2px solid blue; */
+      box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    }
+    #a-card>div>:nth-child(1){
+     
+      width:90%;
+      margin:15px;
+    }
+    #a-card>div>:nth-child(2){
+     margin:10px;
+      width:89%;
+      color:blue;
+      margin-left:20px;
+      font-size: 19px;
+      margin-bottom: 10px;
+      line-height: 19px;
+      text-align:center;
+      margin:auto;
+    }
+    #a-card>div>:nth-child(3){
+      width:90%;
+      text-align:center;
+      margin: auto;
+      margin-left:20px;
+      font-size: 16px;
+     margin-top: 2px;
+      line-height: 22px;
+     
+    }
     </style>
   </head>
   
@@ -289,43 +570,334 @@
     <div id="main">
       <div class="box">
         <div>
-          <img
-            src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/MMT-583396-ghp-appliance-labor-sale-220828-0decf8d0-4793-40e7-8ba9-5e9975612b75.jpg"
+          <img  style="width:203%;height:495px"
+            src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/MMT-577170-fold-flip-na-ghp-f3915678-5b25-43b3-8c45-8ad974580c2a.jpg"
           />
           <button>Shop Now</button>
         </div>
       </div>
       <div id="x">
       <div id="cart">
-        <h5 >Recommended for you</h5>
+        <!-- <h5 >Recommended for you</h5> -->
         <div>
          
-          <img style="width:50px;height:80px; margin-top:30px;border:3px solid red;margin-left: -99px;margin-right:-70px;"
-          src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6481/6481712_sd.jpg;maxHeight=120;maxWidth=120">
-          <h6>No More Heroes 2 - Nintendo Switch</h6>
+          <img 
+          src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6481/6481713_sd.jpg;maxHeight=120;maxWidth=120">
+      
         </div>
         <div>
-          <img style="width:50px;height:80px; margin-top:30px;border:3px solid red;margin-left: -29px;"
-          src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6510/6510098_sd.jpg;maxHeight=640;maxWidth=550">
-          <h6>Castlevania Anniversary Collection - Nintendo</h6>
+          <img 
+          src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6513/6513596_sd.jpg;maxHeight=120;maxWidth=120">
+        
+        </div>
+       
+        <div>
+          <img  
+           src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6510/6510098_sd.jpg;maxHeight=120;maxWidth=120">
+
         </div>
         <div>
-          <img  style="width:50px;height:80px; margin-top:30px;border:3px solid red;margin-left: -29px;"
-           src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6481/6481713_sd.jpg;maxHeight=120;maxWidth=120">
-          <h6>No More Heroes - Nintendo Switch</h6>
-        </div>
-        <div>
-          <img style="width:50px;height:80px; margin-top:30px;border:3px solid red;margin-left: 19px;"
-            src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6510/6510098_sd.jpg;maxHeight=120;maxWidth=120">
-          <h6>Bayonetta - Nintendo Switch, Nintendo Switch</h6>
+          <img  
+            src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6481/6481713_sd.jpg;maxHeight=120;maxWidth=120">
+         
         </div>
       </div>
         <div id="container">
-          <div></div>
-          <div></div>
+          <div>
+            <button>outlet deals</button>
+            <h2>Clearance, open-box and more.</h2>
+            <p>View outlet deals</p>
+          </div>
+          <div>
+            <h5>Continue Shopping</h5>
+            <img style="width:50%;height:170px; margin-left:80px;margin-top: -3px;"
+            src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6481/6481713_sd.jpg"/>
+           <p>No more heroes 1</p>
+          </div>
           </div>
       </div>
    </div>
+   
+   <!-- <div id="box-1"> -->
+    <hr style="margin-top:60PX;margin-left:90px;">
+    <h3>You Viewed</h3> 
+     <p>Manage all your recently viewed items</p>
+
+    
+        
+    <div id="h-card">
+      <div class="h-each-card">
+        <div><img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6510/6510098_sd.jpg;maxHeight=400;maxWidth=400" alt=""></div>
+        <div>Castlevania Anniversary Collection - Nintendo Switch</div>
+      </div>
+      <div class="h-each-card">
+        <div><img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6513/6513596_sd.jpg;maxHeight=400;maxWidth=400" alt=""></div>
+        <div>Bayonetta - Nintendo Switch, Nintendo 
+          </div>
+      </div>
+      <div class="h-each-card">
+        <div><img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6481/6481713_sd.jpg;maxHeight=400;maxWidth=400" alt=""></div>
+        <div>No More Heroes - Nintendo Switch</div>
+      </div>
+      <div class="h-each-card">
+        <div><img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6362/6362490_sd.jpg;maxHeight=400;maxWidth=400" alt=""></div>
+        <div>Digimon Survive - Nintendo Switch</div>
+      </div>
+      <div class="h-each-card">
+        <div><img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6288/6288633_sd.jpg;maxHeight=400;maxWidth=400" style="height:100px;width:100px" alt=""></div>
+        <div>UNDERTALE - Nintendo Switch</div>
+      </div>
+    </div>
+    
+      <div class="y-card">
+        <div id="y-each-card">
+          <div>
+            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/GL-65963-confident-210831-c34d2a74-8b79-41cd-8161-b9987666f7d6.png;maxHeight=72;maxWidth=72" alt="x"/>
+          </div>
+          <div style="display:flex;flex-direction:column;margin-top:26px;">
+            <h2>Shop safely and confidently.</h2>
+            <p style="color:blue;">See our safety procedures</>
+          </div>
+        </div>
+
+        <div id="y-each-card">
+          <div>
+            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/GL-65963-expert-210831-70c599ed-fc34-47d8-9b93-85f899d93c8f.png;maxHeight=72;maxWidth=72" alt="x"/>
+          </div>
+            <diV style="display:flex;flex-direction:column;margin-top:26px;">
+            <h2>Shop with an expert, right from home.</h2>
+            <span >Call, chat, video chat or in-home consultation.</span>
+           <span style="color:blue;">Shop with an Expert</span> 
+          </diV>
+        </div>
+      </div>
+     
+      <div id="z-card">
+        <div id="z-each-card">
+          <div>
+            <img style="border:5px solid green;"
+            src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/MMT-583396-ghp-sp-appliance-labor-sale-220828-dcb6de14-7456-4270-90c8-5f1a5b76b95a.jpg" alt=""/>
+            <button style="background-color:rgb(255,243,1);">shop Now</button>
+          </div>
+        
+        </div>
+        <div>
+          <div id="z-each-card">
+            <div>
+              <!-- <h2>Introducing the new Samsung Galaxy Watch5 Series.</h2> -->
+              <img style="width:100%;height:400px; "
+              src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/MMT-583396-ghp-sp-watch5-220828-6176be55-6b0f-4d9c-b87f-a645ceb6ac4d.jpg" alt=""/>
+              <button style="background-color:rgb(255,243,1);">shop Now</button>
+            </div>
+          </div>
+        </div>
+  
+      </div>
       
+      <div id="w-card">
+      <div id="w-each-card">
+         <div>
+          <img style="width:40%;"
+          src="https://pisces.bbystatic.com/image2/BestBuy_US/Gallery/gl-37875-app-curbside-vpe_der-149659.png;maxHeight=144;maxWidth=144" alt=""/>
+         </div>
+         <div>
+          <h3 >Ready in one hour</h3>
+          <p style="flex-direction: column;">with Store or Curbside Pickup.</p>
+         </div>
+      </div>
+      <div>
+        <div id="w-each-card">
+          <div>
+           <img  style="width:40%;"
+            src="https://pisces.bbystatic.com/image2/BestBuy_US/Gallery/gl-app-vpe-freeshippin_der1-206852.png;maxHeight=144;maxWidth=144" alt=""/>
+          </div>
+          <div>
+           <h3 style="display:flex;">Free next-day delivery</h3>
+           <p >on thousands of items.</p>
+          </div>
+       </div>
+      </div>
+      <div>
+        <div id="w-each-card">
+          <div>
+           <img style="width:50%;"
+           src="https://pisces.bbystatic.com/image2/BestBuy_US/Gallery/gl-app-vpe-freeshippin_der1-206852.png;maxHeight=144;maxWidth=144" alt=""/>
+          </div>
+          <div>
+           <h3>Same-day delivery.</h3>
+           <p >Order by 2 p.m., get it by 8 p.m.</p>
+         
+          </div>
+       </div>
+      </div>
+      </div>
+
+      <div id="v-card">
+        <div id="v-each-card">
+        <div>
+         <h2>BESTBUY</h2>
+         <h1>totaltech</h1>
+         <button>Learn More</button>
+         </div>
+        
+   </div>
+  </div>
+      
+       <div id="box-4">
+        
+       
+
+      <div id="xy">
+        <div id="u-card">
+        <div>
+          <img style="width:200px;"
+          src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/GL-74307-flex-living-220617-13ff3b39-9f7c-4278-b860-190b8bf8d06b.jpg;maxHeight=432;maxWidth=432" alt="">
+          <div>
+          <p style="color:blue;">Living room</p>
+        </div>
+        </div>
+        <div>
+          <img style="width:200px;"
+          src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/GL-74307-flex-kitchen-220617-fa3601ed-87b6-4066-9a09-8ce5abee8e0b.jpg;maxHeight=432;maxWidth=432" alt=""/>
+          <P style="color:blue">Kitchen</P>
+        </div>
+       
+       
+        <div>
+          <img style="width:200px;"
+          src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/GL-74307-flex-study-space-220617-99927718-5b75-4319-b110-cbb4e709b573.jpg;maxHeight=432;maxWidth=432" alt="">
+          <p style="color:blue;">Study space</p>
+        </div>
+        
+        <div>
+          <img style="width:200px;"
+          src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/GL-74307-flex-outdoor-220617-8b563d78-0b6f-42b3-aa0e-79f0a20b6b6d.jpg;maxHeight=432;maxWidth=432" alt="">
+          <p style="color:blue">Outdoor</p>
+        </div>
+       
+      </div>
+      </div>
+       <div id="xy">
+        <div id="u-card">
+          <div>
+            <img style="width:200px;"
+            src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/GL-74307-flex-bts-220617-cd9807c7-3288-4a53-9e2b-e6aa969410b2.jpg;maxHeight=432;maxWidth=432" alt="">
+            <div>
+            <p style="color:blue;">College students</p>
+          </div>
+          </div>
+          <div>
+            <img style="width:200px;"
+            src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/GL-74325-flex-parenthub-220617-3ca59862-5125-45ce-a189-439117edf662.jpg;maxHeight=432;maxWidth=432" alt=""/>
+            <P style="color:blue">K–12 students</P>
+          </div>
+         
+         
+          <div>
+            <img style="width:200px;height:200px;"
+            src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6504/6504389_rd.jpg;maxHeight=432;maxWidth=432" alt="">
+            <p style="color:blue;">Computer finder</p>
+          </div>
+          
+          <div>
+            <img style="width:200px;"
+            src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/GL-75219-Explore-BTS-Checklist-220705-7034bf3a-0553-4ff0-88a2-0032cb392116.jpg;maxHeight=432;maxWidth=432" alt="">
+            <p style="color:blue">Student checklist</p>
+          </div>
+         
+        </div>
+      
+       </div>
+       <div id="xy">
+        <div id="u-card">
+          <div>
+            <img style="width:200px;"
+            src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/GL-76531-explore-roku-kitchen-220815-c8e41565-8422-4aa5-ba16-5ecbe47f5e06.jpg;maxHeight=432;maxWidth=432" alt="">
+            <div>
+            <p style="color:blue;text-align: center;margin:auto;width:70%;font-size:15px;line-height: 14px;">Best Buy Home Experts’ smart tech</p>
+          </div>
+          </div>
+          <div>
+            <img style="width:200px;"
+            src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/GL-76531-explore-roku-appliances-220815-3b1701be-aacb-4da3-874d-4b1a51129834.jpg;maxHeight=432;maxWidth=432" alt=""/>
+            <P style="color:blue;text-align: center;margin:auto;width:70%;font-size:15px;line-height: 14px;">LG Studio appliances seen on Roku Idea</P>
+          </div>
+         
+         
+          <div>
+            <img style="width:200px;"
+            src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/GL-76531-explore-roku-coffee-220815-acff9194-5b41-4f60-95aa-1b4623ca00e1.jpg;maxHeight=432;maxWidth=432" alt="">
+            <p style="color:blue;text-align: center;margin:auto;width:70%;font-size:15px;line-height: 14px;">Ninja coffee maker seen on Roku Idea</p>
+          </div>
+          
+          <div>
+            <img style="width:200px;"
+            src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/GL-76531-explore-roku-he-220815-7cfc3f46-9d53-49e3-9872-c21d94a7eb39.jpg;maxHeight=432;maxWidth=432" alt="">
+            <p style="color:blue">Schedule a free Home Expert</p>
+          </div>
+         
+        </div>
+        </div>
+      </div>
+
+      <div id="box-5">
+        <div id="t-card">
+
+        </div>
+
+        <h2 style="margin-top:60px;margin-left:19px;">Our featured offers</h2>
+        <hr>
+        <div id="a-card">
+          <div>
+             <img
+             src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/pol-mmt577255-samsung_DER-771450f0-cd57-4a85-9180-5f460434333e.jpg;maxHeight=504;maxWidth=740" alt="">
+             <h3>Save up to $500 on select Samsung, Sony and LG TVs.</h3>
+             <p>Enjoy stunning color and clarity with feature-packed TVs from these popular brands.</p>
+          </div>
+          
+          <div>
+           <img src=" https://pisces.bbystatic.com/image2/BestBuy_US/dam/GL-74895_backtoschool_laptop_1000x680-76a3e3b5-2121-49ca-9efe-aa01a7f12d67.jpg;maxHeight=504;maxWidth=740" alt=""/>
+           <h3>Back to School deals.</h3>
+           <p>Members get exclusive access to even more laptop and computer deals.
+            Member-exclusive offers end Sunday.</p>
+          </div>
+          <div>
+            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/pol_Intel-Gamer-Days-MMT-577219-0822-f7973171-c5bd-4fa8-b314-0ff67ae66539.jpg;maxHeight=504;maxWidth=740" alt=""/>
+            <h3>Save up to $400 on select gaming PCs powered by Intel®.</h3>
+            <p>Minimum savings is $100.</p>
+          </div>
+          <div>
+            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/pol-MMT-574349_DER-7fca9699-94d5-4a39-8cb1-978ffcb5ceb4.jpg;maxHeight=504;maxWidth=740" alt=""/>
+            <h3>Air conditioners on sale.</h3>
+            <p>Keep your home cool by finding the air conditioner that’s right for your space.</p>
+          </div>
+          <div>
+            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/mmt-473970-airpods-pro-pol_der-00e22c93-17c5-4966-bc70-a338020d5cd6.jpg;maxHeight=504;maxWidth=740" alt=""/>
+            <h3>AirPods Pro</h3>
+            <p>Magic like you’ve never heard.</p>
+          </div>
+          <div>
+            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/MMT-573209-campus-transportation-pol-der-310506ee-98e2-47b7-b35b-fbb1a13c5561.jpg;maxHeight=504;maxWidth=740" alt=""/>
+            <h3>Save on select electric transportation.</h3>
+            <p>Find e-scooters, e-bikes and other gear for rides around campus, the neighborhood and other travels.</p>
+          </div>
+        </div>
+
+        <h2  style="margin-top:-100px;">You may also like (6 items)</h2>
+        <hr>
+         <div></div>
+
+      </div>
+
+      
+       
+       
+    
+   
+    
+
+      
+    
+  
     </body>
 </html>
